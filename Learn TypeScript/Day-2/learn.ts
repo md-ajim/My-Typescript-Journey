@@ -31,8 +31,17 @@ let input: unknown = 'Hi';
 input = 42;
 // console.log(input.toUpperCase()); ❌ Error (because not sure if input is string or not)
 
+//👉 We can type-check and then use:
 
 
+if(typeof input === 'number'){
+    console.log(input , 'input')
+}
 
+
+// null & undefine 
+
+let nullValue : null = null
+let undefineValue : undefined = undefined
 
 
