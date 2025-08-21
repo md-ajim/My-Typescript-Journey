@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 🚀 My TypeScript JourneyThis repository is a part of my journey to learn TypeScript. Here, I will be learning TypeScript through various exercises and projects. 📖🎯 GoalUnderstand the core concepts of TypeScript.Use TypeScript with different libraries and frameworks.Gain practical knowledge of TypeScript by building small projects.💻 Practice[Day 1-5] - Basic Syntax and Data Types[Day 6-10] - Functions and Interfaces[Day 11-15] - Classes and Objects... and much more! ✨📬 ContactIf you have any questions or suggestions, feel free to contact me.
+=======
+
+>>>>>>> refs/remotes/origin/main
