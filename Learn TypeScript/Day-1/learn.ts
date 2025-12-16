@@ -8,4 +8,3 @@ console.log(bol, 'bool')
 console.log(number, 'number')
 
 
-

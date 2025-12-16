@@ -45,3 +45,7 @@ let nullValue : null = null
 let undefineValue : undefined = undefined
 
 
+
+console.log(variableName)
+
+
