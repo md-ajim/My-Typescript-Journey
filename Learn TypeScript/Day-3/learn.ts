@@ -25,8 +25,25 @@ console.log(status, 'status')
 
 type ViewMode = 'grid' | 'list'
 
-let ViewMode : ViewMode = 'list'
+let viewMode_variable : ViewMode = 'list'
 
-ViewMode.length
+viewMode_variable.length
 
-console.log(ViewMode.length , 'View Mode')
+console.log(viewMode_variable.length , 'View Mode')
+
+
+// Interface Type
+
+
+interface User {
+    name : string, 
+    age : number,
+    isDeveloper : boolean,
+}
+const user : User = {
+    name : 'Ajim',
+    age : 28,
+    isDeveloper : true
+}
+
+console.log(`My name is ${user.name}`)
