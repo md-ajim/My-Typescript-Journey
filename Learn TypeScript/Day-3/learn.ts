@@ -14,11 +14,11 @@ let address : string = 'Dhaka' // automatically string
 // Unione Type
 
 
-let status : 'loading' | 'success' | 'errors'
+let statuss : 'loading' | 'success' | 'errors'
 
-status = 'loading'
+statuss = 'loading'
 
-console.log(status, 'status')
+console.log(statuss, 'status')
 
 
 // Aliases Type
