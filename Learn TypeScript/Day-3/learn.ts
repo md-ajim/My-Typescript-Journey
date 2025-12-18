@@ -102,3 +102,10 @@ function sum ( a : number , b : number ) : number {
 }
 
 console.log(sum(10 , 20) , 'sum')
+
+
+const add = ( a : number , b : number ) : number =>  {
+    return a + b
+}
+
+console.log(add(80  , 100) , 'Run the add function')
