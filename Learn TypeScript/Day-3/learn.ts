@@ -75,6 +75,21 @@ const user_readonly : Readonly<User> = {
 
 }
 
+
+type Config ={
+    readonly url : string
+}
+
+
+
 user_readonly.name 
 
 console.log(user_readonly, 'user_readonly' )
+
+let config : Config = {
+    url : 'https://google.com'
+}
+
+// config.url = 'https://facebook.com'
+
+console.log(config, 'config')
