@@ -23,6 +23,10 @@ console.log(status, 'status')
 
 // Aliases Type
 
-type ViewMode = 'list' | 'grid'
+type ViewMode = 'grid' | 'list'
 
 let ViewMode : ViewMode = 'list'
+
+ViewMode.length
+
+console.log(ViewMode.length , 'View Mode')
