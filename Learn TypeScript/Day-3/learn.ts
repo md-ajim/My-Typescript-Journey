@@ -19,3 +19,10 @@ let status : 'loading' | 'success' | 'errors'
 status = 'loading'
 
 console.log(status, 'status')
+
+
+// Aliases Type
+
+type ViewMode = 'list' | 'grid'
+
+let ViewMode : ViewMode = 'list'
