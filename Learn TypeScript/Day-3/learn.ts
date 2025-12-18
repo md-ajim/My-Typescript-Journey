@@ -47,3 +47,19 @@ const user : User = {
 }
 
 console.log(`My name is ${user.name}`)
+
+
+// Optional Properties
+
+
+interface UserOptional {
+
+    name : string,
+    age? : number
+}
+
+
+const user_optional : UserOptional = {
+    name : 'Ajim'
+}
+console.log(user_optional , 'user_optional')
