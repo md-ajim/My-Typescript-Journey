@@ -93,3 +93,12 @@ let config : Config = {
 // config.url = 'https://facebook.com'
 
 console.log(config, 'config')
+
+
+// Function
+
+function sum ( a : number , b : number ) : number {
+    return a + b
+}
+
+console.log(sum(10 , 20) , 'sum')
