@@ -63,3 +63,18 @@ const user_optional : UserOptional = {
     name : 'Ajim'
 }
 console.log(user_optional , 'user_optional')
+
+
+// Readonly 
+
+
+const user_readonly : Readonly<User> = {
+    name : 'Ajim',
+    age : 28,
+    isDeveloper : false
+
+}
+
+user_readonly.name 
+
+console.log(user_readonly, 'user_readonly' )
