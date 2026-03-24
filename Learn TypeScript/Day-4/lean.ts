@@ -14,3 +14,19 @@ type ProductKeys = keyof Product;
 // "name" | "price" | "stock"
 
 const key: ProductKeys = "price";
+
+
+type Person = {
+  name: string;
+};
+
+type Developer = {
+  skills: string[];
+};
+
+type FullStack = Person & Developer;
+
+const fsDev: FullStack = {
+  name: "Ajim",
+  skills: ["Django", "React", "TypeScript"],
+};
