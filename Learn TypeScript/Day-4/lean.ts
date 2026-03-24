@@ -1,3 +1,4 @@
+// Type Assertion
 
 let data: any = "Hello TypeScript";
 
