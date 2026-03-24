@@ -1,3 +1,9 @@
+
+let data: any = "Hello TypeScript";
+
+let length = (data as string).length;
+console.log(length);
+
 type Product = {
   name: string;
   price: number;
