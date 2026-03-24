@@ -31,3 +31,17 @@ const fsDev: FullStack = {
   name: "Ajim",
   skills: ["Django", "React", "TypeScript"],
 };
+
+
+
+
+type User = { name: string };
+type Admin = { name: string; role: string };
+
+function checkUser(u: User | Admin) {
+  if ("role" in u) {
+    console.log("Admin:", u.role);
+  } else {
+    console.log("User");
+  }
+}
