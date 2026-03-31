@@ -13,3 +13,8 @@ console.log("Name:", name);
 let data: any = "Hello";
 data = 123;
 console.log("Data:", data);
+
+
+
+let input: unknown = "Hi";
+input = 123; // ঠিক আছে
